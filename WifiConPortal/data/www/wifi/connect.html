@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/addAp" method="post">
+        <label for="networkSelection">select a network:</label>
+        <select name="networkSelection" id="networkSelection">
+            %LIST%
+        </select>
+        <br><br>
+        <label for="password">ap password:</label>
+        <input type="password" id="password" name="password">
+        <br><br>
+        <input type="submit" value="Submit">
+      </form>
+</body>
+</html>
